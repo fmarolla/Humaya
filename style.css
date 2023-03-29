@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    }
+
+body{
+    margin: 0;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+/* seccion nav */
+.navbar-nav {
+    align-items: center;
+    gap: 20px;
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+.navbar-nav a{
+    color: #fff;
+    font-size: 20px;
+}
+/* seccion banner */
+
+#container1{
+    background-image: url(./IMAGENES/imagenCentral.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: #fff;
+}
+
+.imagenCentral{
+    text-align: end;
+    padding-top: 250px;
+    padding-right: 100px;
+    padding-left: 790px;
+}
+
+.imagenCentral a {
+    color: #fff;
+    background-color:rgb(78 78 78 / 57%);
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* seccion productos */
+
+.tituloPorductos h2{
+    background-color: rgb(78, 69, 69);
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+#containerProductos {
+    background-color: black;
+    color: white;
+}
+.productos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.descripcionTradicional{
+    text-align: center;
+    margin-top: 100px;
+}
+.descripcionTradicional h2{
+    color: #bf7b2c;
+}
+
+.p2 {
+    color: #bf7b2c;
+}
+
+#containerProductos a {
+    border: solid;
+    border-color: #bf7b2c;
+    border-radius: 2px;
+    color: #bf7b2c;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding: 2px 10px 2px 10px;
+}
+
+.alfajordeMaicena {
+    display: flex;
+    background-color: #CFA948;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.p3 {
+    color: #bf7b2c;
+    font-weight: bold;
+}
+
+.alfajordeMaicena h2  {
+    color: #7A3D00;
+}
+
+.descripcionTradicional2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 100px;
+    color: #fff;
+    padding: 10px;
+}
+
+.descripcionTradicional2 a{
+    border: solid;
+    border-color: #7A3D00;
+    border-radius: 2px;
+    color: #7A3D00;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding: 2px 10px 2px 10px;
+}
+
+.fotoMaicena {
+    margin-right: 100px;
+}
+
+/* seccion calidad */
+
+/* seccion contacto */
+.tituloContactanos h2{
+background-color: rgb(78, 69, 69);
+text-align: center;
+color: #fff;
+padding-top: 40px;
+padding-bottom: 40px;
+margin-bottom: 0px;
+}
+
+.contactanos{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #fff;
+}
+
+.form-control {
+    background-color: #7A3D00;
+    color: #fff;
+}
+
+.btn {
+    background-color: #7A3D00;
+    color: #fff;
+
+}
+
+/* seccion Recetas */
+#contenedorRecetas{
+    background-color: rgb(35, 32, 32);
+}
+
+.tituloRecetas h2{
+background-color: rgb(35, 32, 32);
+text-align: center;
+color: #fff;
+padding-top: 40px;
+padding-bottom: 40px;
+margin-bottom: 0px;
+}
+
+.cardsRecetas {
+    display:flex;
+    column-gap: 111px;
+    margin-left: 200px;
+    margin-right: 200px;     
+    text-align: center;
+}
+
+.cardsRecetas p{
+    color: #fff;
+}
+
+.cardsRecetas h4{
+    color: #7A3D00;
+    text-align: center;
+    margin: 10px;
+}
+
+.conitos{
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #CFA948;
+    padding-bottom: 20px;
+}
+
+.pepas{
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #CFA948;
+    padding-bottom: 20px;
+}
+
+.tortaNutt{
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #CFA948;
+    padding-bottom: 20px;
+}
+
+.cardsRecetas a {
+    border: solid;
+    border-color: #7A3D00;
+    border-radius: 2px;
+    color: #7A3D00;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 2px 2px 2px 2px;
+    width: 100px;
+    color: #7A3D00;
+}
+
+.preparacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* seccion Footer */
+
+.tituloFooter h2 {
+    background-color: rgb(35, 32, 32);
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.containerFooter{
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    gap: 120px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.footer h4 {
+    color: #bf7b2c;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.Navegacion ul{
+    list-style: none;
+}
+
+.Redes li{
+    list-style: none;
+    font-size: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.tituloCalidad{
+    background-color: rgba(44, 44, 44, 0.987);
+
+}
+
+.tituloCalidad h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+}
